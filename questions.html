@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>QUIZ</title>
+        <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+        <link rel="icon" type="imagem/png" href="img/2099158.svg"/>
+        <link rel="stylesheet" href="style/main.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+        <script src="scrips/main.js" defer></script>
+    </head>
+    <body>
+        <header>
+            <div class = "header">
+                <a href="index.html"><img id = "logo" src="img/pngegg.png" alt="logo"></a>
+                <div class = "cabecalho">
+                    <input 
+                    type="text" 
+                    id = "menu"
+                    placeholder="Pesquisar">
+                    <button class="btn"><i style = "color:#3A5899" class="fas fa-search"></i></button>
+                </div>
+            </div>
+        </header>
+        <main>
+
+            <div class="container-questions">
+                    <div id ="progressBar">
+                        <div id = "score" class = "progressBarFull">1</div>
+                        <div id = "score" class = "progressBarFull">2</div>
+                        <div id = "score" class = "progressBarFull">3</div>
+                        <div id = "score" class = "progressBarFull">4</div>
+                        <div id = "score" class = "progressBarFull">5</div>
+                        <div id = "score" class = "progressBarFull">6</div>
+                    </div>
+                <div class = "question">qual é a comida que jiraya não gostava?</div>
+                <div class = "choice-container">
+                    
+                    <button data-number ="1" class = "btn-answer"><p class = "choice-text">Wakame</p></button>
+                    <button data-number ="2" class = "btn-answer"><p class = "choice-text">Sushi</p></button>
+                    <button data-number ="3" class = "btn-answer"><p class = "choice-text">Konbu</p></button>
+                    <button data-number ="4" class = "btn-answer"><p class = "choice-text">Kiwis e gratinados</p></button>
+            </div>
+        </main>
+    </body>
+</html>
+
